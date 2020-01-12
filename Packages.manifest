@@ -1,33 +1,31 @@
 Package: https-dns-proxy
 Version: 2019-12-03-2
-Depends: libc, libcares, libcurl4, libev, ca-bundle
+Depends: libc, libcares, libcurl, libev, ca-bundle
 Conflicts: https_dns_proxy
 Source: feeds/packages/net/https-dns-proxy
-SourceName: https-dns-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: i386_pentium4
-Installed-Size: 11439
+Installed-Size: 11147
 Filename: https-dns-proxy_2019-12-03-2_i386_pentium4.ipk
-Size: 12228
-SHA256sum: b26e8115191cc11e84169d44377d29b828ed1d6f275122c88034f2fe3efa37b0
+Size: 11953
+SHA256sum: f1797f32f10d71a4d077cb93ecd56614acfc3f928c9ff436d4ff55a3417d6cc0
 Description:  DNS Over HTTPS Proxy
 
 Package: libcares
 Version: 1.15.0-4
 Depends: libc
 Source: feeds/packages/libs/c-ares
-SourceName: libcares
 License: MIT
 Section: libs
 Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: i386_pentium4
 Installed-Size: 29998
 Filename: libcares_1.15.0-4_i386_pentium4.ipk
-Size: 30836
-SHA256sum: 31c4ba8cc69ab3a412ebc52f1767d284a9f3be5b20883074c76fd584c3056816
+Size: 30824
+SHA256sum: 6365427be846eb12b3e5fee9c842efbe97446de676b236bf352fc9666d07ab29
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -38,15 +36,14 @@ Package: libev
 Version: 4.31-1
 Depends: libc
 Source: feeds/packages/libs/libev
-SourceName: libev
 License: BSD-2-Clause
 Section: libs
 Maintainer: Karl Palsson <karlp@tweak.net.au>
 Architecture: i386_pentium4
 Installed-Size: 24395
 Filename: libev_4.31-1_i386_pentium4.ipk
-Size: 25105
-SHA256sum: 5ea4386b046f86002f551761aaf7dc0dd74bc95a41632dcd76ecf7a172dfc2ec
+Size: 25103
+SHA256sum: ed973714716f6ee9181dc2c72f76bd4fce417b5e299bfb65556e4d8bbfcd4ff6
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
@@ -54,14 +51,13 @@ Package: vpnc-scripts
 Version: 20151220-2
 Depends: libc
 Source: feeds/packages/net/vpnc-scripts
-SourceName: vpnc-scripts
 Section: net
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: all
-Installed-Size: 2290
+Installed-Size: 2289
 Filename: vpnc-scripts_20151220-2_all.ipk
-Size: 3074
-SHA256sum: 3d96c939038341a44ab2f56a110e7e7ea991963f11edda1008586804fb41026d
+Size: 3066
+SHA256sum: 781fbeb8c64416ccdf68442af61e6947ef96b7b8ab494026e94997435adc1b8e
 Description:  This package contains the vpnc-script which is used by vpnc
  and OpenConnect to configure the tunnel interface.
 
