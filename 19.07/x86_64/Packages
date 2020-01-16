@@ -1,14 +1,14 @@
 Package: https-dns-proxy
-Version: 2019-12-03-2
+Version: 2019-12-03-3
 Depends: libc, libcares, libcurl4, libev, ca-bundle
 Conflicts: https_dns_proxy
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 12308
-Filename: https-dns-proxy_2019-12-03-2_x86_64.ipk
-Size: 13086
-SHA256sum: e269c0f74f7eb1e68ced1b785103631a1bd00d803ca7e7dbbb0be4b0147af338
+Installed-Size: 12453
+Filename: https-dns-proxy_2019-12-03-3_x86_64.ipk
+Size: 13236
+SHA256sum: 524bcf80ed19516a599d2cb66e9ead7b3b12e1ccbb96db2a8aac13791106d0e8
 Description:  DNS Over HTTPS Proxy
 
 Package: libcares
@@ -17,10 +17,10 @@ Depends: libc
 License: MIT
 Section: libs
 Architecture: x86_64
-Installed-Size: 31346
+Installed-Size: 31537
 Filename: libcares_1.15.0-4_x86_64.ipk
-Size: 32198
-SHA256sum: 5923e1606a8d67b690bbb0363d63af4fb58f5d55eb73f13035eea57226eee493
+Size: 32380
+SHA256sum: 133da41031b0e98bf8a30f6a2bbdf8b1765fe7c227ecb3e18368a5044c517224
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -28,15 +28,15 @@ Description:  c-ares is a C library for asynchronous DNS requests (including nam
  
 
 Package: libev
-Version: 4.31-1
+Version: 4.25-1
 Depends: libc
 License: BSD-2-Clause
 Section: libs
 Architecture: x86_64
-Installed-Size: 24818
-Filename: libev_4.31-1_x86_64.ipk
-Size: 25528
-SHA256sum: 8a64fe596bcd585f08c55b08251fcfb1faf9b692a3c0af30c184057397797083
+Installed-Size: 20675
+Filename: libev_4.25-1_x86_64.ipk
+Size: 21481
+SHA256sum: 9f0388eb66d5ba12f91ed084a566e91e645fe7023241530df3885f86897170e4
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
@@ -47,8 +47,8 @@ Section: net
 Architecture: all
 Installed-Size: 2291
 Filename: vpnc-scripts_20151220-2_all.ipk
-Size: 3076
-SHA256sum: c4301013aa8baa5a9a90415696b3f6a84613a8f27483e38aa443584204553c67
+Size: 3077
+SHA256sum: 1275297d9ed12c6901caab03a8b7d0f8e4f4e033b0dd056a23cfe0173c531a9e
 Description:  This package contains the vpnc-script which is used by vpnc
  and OpenConnect to configure the tunnel interface.
 
